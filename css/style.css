@@ -1,0 +1,474 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.container1{
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.6) url(../images/homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+}
+
+.logo{
+width: 170px;
+position: relative;
+left: 50px;
+bottom: 10px;
+}
+#sign{
+    width:6%;
+    height: 39px;
+    background-color:  #e50914;
+    font-weight: 500;
+    color: white;
+    border: none;
+    position: relative;
+left: 1180px;
+bottom: 27px;
+border-radius: 3px;
+}
+.pg{
+    color: white;
+}
+.globe1{
+    width:  90px;
+    height: 32px;
+    border: 2px solid grey;
+    position: relative;
+    left: 1230px;
+    display: flex; 
+    flex-direction: row;
+    background-color: black;
+    top:32px;
+    border-radius: 1px;
+}
+.globe{
+    width:20px;
+    filter: invert(100%) sepia(0%) saturate(7478%) hue-rotate(195deg) brightness(109%) contrast(98%);
+
+    
+    
+   
+}
+.down{
+    width:20px;
+   filter: invert(100%) sepia(0%) saturate(7478%) hue-rotate(195deg) brightness(109%) contrast(98%);
+
+    
+}
+.pg{
+    position: relative;
+    top:3px;   
+
+}
+.main{
+    position: relative;
+    left: 410px;
+    top:90px;
+    
+}
+.h12{
+    color: white;
+    font-size: 60px;
+
+}
+.h122{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    left: 55px;
+    bottom: 9px;
+
+
+}
+.h123{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 99px;
+    top:10px;
+
+}
+.h124{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    top:37px;
+
+}
+#email{
+    width: 510px;
+    height:72px;
+    position: relative;
+    right: 50px;
+    border-radius: 3px;
+    border: none;
+    top:62px;
+    
+
+}
+#sign2{
+    width:238px;
+    height: 75px;
+    background-color:  #e50914;
+    font-weight: 500;
+    color: white;
+    border: none;
+    position: relative;
+    right: 53px;
+    font-size: 25px;
+    border-radius: 3px;
+    top:67px;
+    
+}
+input[type="email"]::placeholder{
+    padding-left: 14px;
+    font-size: 17px;
+  
+} 
+.hr2{
+    width: 1485px;
+    height: 10px;
+    background-color: #303030;
+    position: relative;
+    top:332px;
+}
+.container2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    bottom: 125px;
+    left: 39px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+   
+}
+.tv{
+    width:500px;
+    position: relative;
+    right: 102px;
+
+}
+.tv1{
+    position: relative;
+    top:120px;
+    left: 215px;
+    font-size: 50px;
+   
+}
+.tv2{
+    position: relative;
+    top: 200px;
+    right: 197px;
+   
+}
+.hr3{
+    width: 1485px;
+    height: 10px;
+    background-color: #303030;
+    position: relative;
+    bottom:20px;
+    top: 60px;
+
+}   
+.mobile{
+  width:500px;
+  margin-top: 90px;
+  position: relative;
+  left: 150px;
+ 
+}
+
+.mobile1{
+    position: relative;
+    left: 720px;
+    font-size: 50px;
+    bottom: 300px;
+
+}
+.mobile2{
+    position: relative;
+    left: 720px;
+    bottom: 280px;
+    
+}
+.hr4{
+    width: 1485px;
+    height: 10px;
+    background-color: #303030;
+    position: relative;
+    bottom:120px;
+
+
+}  
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+.device{
+    width:500px;
+    position: relative;
+    right: 160px;
+
+}
+.device1{
+    position: relative;
+    left: 200px;
+    top: 122px;
+    font-size: 50px;
+
+}
+.device2{
+    position: relative;
+    right: 250px;
+    top: 199px;
+
+}
+.hr5{
+    width: 1485px;
+    height: 10px;
+    background-color: #303030;
+    position: relative;
+    top:109px;
+
+
+} 
+.children{
+    width:520px;
+    margin-top: 199px;
+    position: relative;
+    left: 150px;
+
+}
+.children1{
+    position: relative;
+    left: 720px;
+    font-size: 50px;
+    bottom: 300px;
+
+
+    
+}
+.children2{
+    position: relative;
+    left: 720px;
+    bottom: 280px;
+    
+}
+.hr6{
+
+    width: 1485px;
+    height: 10px;
+    background-color:#303030;
+    position: relative;
+    bottom:102px;
+}
+.question1{
+    position: relative;
+    left: 410px;
+    font-size: 50px;
+    bottom: 50px;
+
+
+}
+.ans1{
+    width: 785px;
+    height: 75px;
+    background-color:#303030;
+    position: relative;
+
+    left: 330px;
+    
+
+}
+.ans2{
+    width: 785px;
+    height: 75px;
+    background-color:#303030;
+    position: relative;
+    top:10px;
+    left: 330px;
+    
+}
+.ans3{
+    width: 785px;
+    height: 75px;
+    background-color: #303030;
+    position: relative;
+    top:20px;
+    left: 330px;
+    
+}
+.ans4{
+    width: 785px;
+    height: 75px;
+    background-color:#303030;
+    position: relative;
+    top:30px;
+    left: 330px;
+    
+}
+.ans5{
+    width: 785px;
+    height: 75px;
+    background-color: #303030;
+    position: relative;
+    top:41px;
+    left: 330px;
+    
+}
+.ans6{ 
+    width: 785px;
+    height: 75px;
+    background-color:#303030;
+    position: relative;
+    top:50px;
+    left: 330px;
+    
+}
+.ques1{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.symbol{
+    font-size: 55px;
+    position: relative;
+    left: 730px;
+    bottom: 41px;
+    
+}
+.h0{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    top:130px;
+    left: 442px;
+
+}
+#email0{
+    width: 510px;
+    height:72px;
+    position: relative;
+    left: 380px;
+    border-radius: 3px;
+    border: none;
+    top:150px;
+}
+#sign0{
+    width:238px;
+    height: 75px;
+    background-color:  #e50914;
+    font-weight: 500;
+    color: white;
+    border: none;
+    position: relative;
+    left: 377px;
+    font-size: 25px;
+    border-radius: 3px;
+    top:155px;
+    
+}
+.hr7{
+
+    width: 1485px;
+    height: 10px;
+    background-color:#303030;
+    position: relative;
+    top: 250px;
+    
+}
+.globe2{
+    width:  129px;
+    height: 50px;
+    border: 1px solid rgb(78, 74, 74);
+    position: relative;
+   
+    bottom: 339px;
+    display: flex; 
+    flex-direction: row;
+    background-color: black;
+    border-radius: 1px;
+}
+.globefo{
+    width:20px;
+    filter: invert(100%) sepia(0%) saturate(7478%) hue-rotate(195deg) brightness(35%) contrast(98%);
+    position: relative;
+    left: 9px;
+  
+    }
+    
+    
+.down1{
+    width:20px;
+   filter: invert(100%) sepia(0%) saturate(7478%) hue-rotate(195deg) brightness(35%) contrast(98%);
+position: relative;
+left: 26px;
+
+    
+}
+.pg1{
+    position: relative;
+    top: 13px;
+    left: 20px;
+
+
+}
+.footer{
+    position: relative;
+    top: 330px;
+    left: 300px;
+    color:#585656; 
+    font-weight: 600;
+}
+.stage1{
+    font-size: 20px;
+}
+.stage2{
+
+    font-size: 15px;
+
+    
+    
+}
+.stage3{
+    font-size: 15px;
+position: relative;
+left: 256px;
+bottom: 139px;
+}
+.stage4{
+    font-size: 15px;
+    position: relative;
+left: 480px;
+bottom: 279px;
+}
+.stage5{
+    font-size: 15px;
+    position: relative;
+    left: 710px;
+    bottom: 420px;
+
+}
+.stage6{
+    position: relative;
+    bottom: 317px;
+
+}
